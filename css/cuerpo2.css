@@ -1,0 +1,39 @@
+#section-2{
+    margin: 0;
+     padding: 0;
+     justify-content: center;
+}
+
+#section-2 #comentario-historia{
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+    background-color: darkgray;
+}
+
+#section-2 .imagen-profesores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imagen-profesores ul{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    background-color: rgba(235, 235, 176, 0.301);
+}
+
+.imagen-profesores img{
+    width: 90%;
+}
+
+
+
+
+
+
+
