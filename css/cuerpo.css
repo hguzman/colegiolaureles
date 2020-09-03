@@ -1,70 +1,69 @@
-body{
-    margin: 0;
-    padding: 0; 
-}
-
-#section-1{
-    margin: 0;
-    padding: 5px;
-    justify-content: center;
-}
-
-h2{
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    width: 100%;
-}
-
-h3{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: gray;
-    border-radius: 0.3em 0.3em 0.3em 0.3em;
-    width: 100%;
-}
-
-.slider{
-    margin: 0 25px;
-    padding: 10px;
-    background-color: rgba(235, 235, 176, 0.301);
+/* Mision */
+.contenedor-cuerpo{
+    max-width: 1100px;
+    margin: 0 auto;
     width: 95%;
-    overflow: hidden;
 }
 
-.slider ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-
-    animation: cambiar 20s infinite alternate;
+.cuerpo-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 8rem;
 }
 
-.slider li{
+.item-cuerpo-1{
     text-align: center;
-    width: 70%;
-    list-style: none;
+    padding: 2rem;
 }
 
-.slider img{
-    width: 40%;
+.item-cuerpo-1 h2{
+    font-family:"Lato";
+    font-weight: lighter;
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: black;
 }
 
-@keyframes cambiar {
-    0% { margin-left: 0;}
-    20% { margin-left: 0;}
-
-    25% { margin-left: -100%;}
-    45% { margin-left: -100%;}
-
-    50% { margin-left: -200%;}
-    70% { margin-left: -200%;}
-
-    75% { margin-left: -300%;}
-    100% { margin-left: -300%;}
+.item-cuerpo-1 img{
+    max-width: 50%;
 }
 
+.item-cuerpo-1 p{
+    font-size: 16px;
+    color: black;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 2rem 0;
+    text-align: left;
+}
 
+/* Vision */
 
+.item-cuerpo-2{
+    text-align: center;
+    padding: 2rem;
+}
 
+.item-cuerpo-2 h2{
+    font-family:"Lato";
+    font-weight: lighter;
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: black;
+}
+
+.item-cuerpo-2 img{
+    max-width: 50%;
+}
+
+.item-cuerpo-2 p{
+    font-size: 16px;
+    color: black;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 2rem 0;
+    text-align: left;
+}
