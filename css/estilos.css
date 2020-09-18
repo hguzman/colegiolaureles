@@ -1,6 +1,7 @@
 @import url(/css/cuerpo.css);
 @import url(/css/cuerpo2.css);
 @import url(/css/ultimo.css);
+@import url(/css/hv.css);
 *{
     margin: 0;
     padding: 0;
@@ -173,3 +174,4 @@
     text-transform: capitalize;
     text-decoration: none;
   }
+

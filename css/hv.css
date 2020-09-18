@@ -1,12 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body{ 
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	background: url("../img/fondo1.jpg") no-repeat center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin: 0;	
+	height: 100vh;
+    background-color: green;
+    background: linear-gradient(90deg, #1a741f 20%, #d2e432 100%);
+    
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+
+.box1 {
+	background: darkcyan;
+	padding: 10px;
+	margin: 5px;
+	margin-left: -300px;
+	margin-right: 100px;
+	text-align: center;
+	width: 700px;
+}
+
+.box2 {
+	background: darkcyan;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	margin-left: -150px;
+	width: 700px;
+}
+
+.sobreMi{
+	background-color: #C7E387; 
+	padding: 15px; 
+	margin-right: 400px; 
+	border-radius: 10px; 
+	width: 650px; 
+	margin: 10px;
+}
+
+.datosBasicos{
+	background-color: #C7E387; 
+	padding: 15px; 
+	border-radius: 10px; 
+	width: 650px; 
+	margin: 10px;
+}
+
+.datosBasicosP{
+	background-color:darkcyan; 
+	padding: 15px; 
+	margin-right: 300px; 
+	border-radius: 10px; 
+	padding-bottom: 0px; 
+	margin-bottom: 20px; 
+	width: 620px;
+}
+
+.conocimientos{
+	background-color:#C7E387; 
+	padding: 15px; 
+	margin-right: 400px; 
+	border-radius: 10px; 
+	margin: 10px;
 }
