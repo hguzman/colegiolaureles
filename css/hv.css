@@ -1,7 +1,7 @@
 body{ 
 	height: 100vh;
     background-color: green;
-    background: linear-gradient(90deg, #1a741f 20%, #d2e432 100%);
+    background: white;
     
 }
 
@@ -13,7 +13,7 @@ body{
 }
 
 .box1 {
-	background: darkcyan;
+	background: rgb(132, 165, 165);
 	padding: 10px;
 	margin: 5px;
 	margin-left: -300px;
@@ -23,7 +23,7 @@ body{
 }
 
 .box2 {
-	background: darkcyan;
+	background: rgb(132, 165, 165);
 	padding: 10px;
 	margin: 5px;
 	text-align: center;
@@ -49,7 +49,7 @@ body{
 }
 
 .datosBasicosP{
-	background-color:darkcyan; 
+	background: rgb(132, 165, 165);
 	padding: 15px; 
 	margin-right: 300px; 
 	border-radius: 10px; 
