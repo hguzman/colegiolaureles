@@ -1,0 +1,67 @@
+body{ 
+	height: 100vh;
+    background-color: green;
+    background: white;
+    
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 50px;
+	margin-left: 350px;
+}
+
+.box1 {
+	background: rgb(132, 165, 165);
+	padding: 10px;
+	margin: 5px;
+	margin-left: -300px;
+	margin-right: 100px;
+	text-align: center;
+	width: 700px;
+}
+
+.box2 {
+	background: rgb(132, 165, 165);
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	margin-left: -150px;
+	width: 700px;
+}
+
+.sobreMi{
+	background-color: #C7E387; 
+	padding: 15px; 
+	margin-right: 400px; 
+	border-radius: 10px; 
+	width: 650px; 
+	margin: 10px;
+}
+
+.datosBasicos{
+	background-color: #C7E387; 
+	padding: 15px; 
+	border-radius: 10px; 
+	width: 650px; 
+	margin: 10px;
+}
+
+.datosBasicosP{
+	background: rgb(132, 165, 165);
+	padding: 15px; 
+	margin-right: 300px; 
+	border-radius: 10px; 
+	padding-bottom: 0px; 
+	margin-bottom: 20px; 
+	width: 620px;
+}
+
+.conocimientos{
+	background-color:#C7E387; 
+	padding: 15px; 
+	margin-right: 400px; 
+	border-radius: 10px; 
+	margin: 10px;
+}
